@@ -1,0 +1,86 @@
+header{
+    background : #201b2c;
+    align-items: center;
+    box-shadow : #063066;
+    
+
+}
+
+body{
+    background:#201b2c;
+}
+.Titulo{
+    display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;  
+  align-items: center;
+  color: rgb(185, 219, 221);
+}
+.info_principal{
+    width: 100%;
+    border:none;
+    border-radius:2px;
+    padding: 15px;
+    background:#063066;
+    color: rgb(185, 219, 221);
+    font-size: 17pt;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    outline:none;
+    box-sizing: border-box;
+    box-shadow : 0px 10px 40px #00000056;
+}
+.info_principal>label{
+    margin-left: 15px;
+}
+.info_principal>input{
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.central{
+    background:#2f2841;
+    font-size: 20px;
+    color: rgb(185, 219, 221);
+    border-radius: 15px;
+}
+.complementar_esquerda{
+
+margin-left: 10px;
+margin-top: 40px;
+
+}
+.complementar_direita{
+
+    display: flex;
+    justify-content:right;  
+    
+    outline:none;
+    
+    }
+   .botao{
+   
+    
+    padding: 15px 0px;
+    
+    border: none;
+    border-radius: 8px;
+
+    text-transform: uppercase;
+    font-weight :30;
+    letter-spacing: 3px;
+    color: #2b134b;
+    margin-bottom: 10px;
+    
+    cursor: pointer;
+    padding-left: 10px;
+    
+    
+
+   }
+ .botao_d{
+   
+align-items: flex-start;
+padding-left: 1090px;
+padding-top: 15px; 
+ }
