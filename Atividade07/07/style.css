@@ -84,3 +84,8 @@ align-items: flex-start;
 padding-left: 1090px;
 padding-top: 15px; 
  }
+ .image{
+    border-radius: 100%;
+
+    
+ }
